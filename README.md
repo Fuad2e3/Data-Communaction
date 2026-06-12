@@ -1,10 +1,6 @@
 # 🛡️ BitGuard: Error Detection & Correction Toolkit
 
 <p align="center">
-  <img src="src/main/java/images/logo.png" alt="BitGuard Logo" width="150">
-</p>
-
-<p align="center">
   <b>A comprehensive toolkit for visualizing and calculating Error Detection and Correction algorithms in Data Communication.</b>
 </p>
 
