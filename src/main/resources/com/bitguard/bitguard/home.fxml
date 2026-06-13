@@ -30,7 +30,7 @@
                         <Image url="@images/gub_name.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="600.0" layoutY="500.0" prefHeight="55.0" prefWidth="424.0" text="Developed by Nazmul &amp; Fuad" textFill="#00ffd9">
+                  <Label layoutX="600.0" layoutY="500.0" prefHeight="55.0" prefWidth="424.0" text="Developed by Fuad" textFill="#00ffd9">
                      <font>
                         <Font name="Script MT Bold" size="32.0" />
                      </font>
