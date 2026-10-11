@@ -13,7 +13,7 @@
 
 ---
 
-[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack) • [Installation](#-installation)
+[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack)
 
 </div>
 
@@ -64,29 +64,11 @@ Data-Communaction/
 
 ---
 
-## 🚀 Installation & Execution
-
-### 1. Prerequisites
-- JDK 17 or higher
-- Apache Maven installed
-
-### 2. Build & Launch
-```bash
-git clone https://github.com/fuadk/Data-Communaction.git
-cd Data-Communaction
-mvn clean install
-mvn javafx:run
-```
-
----
-
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by Fuad**  
-*Developed by Softece*  
-*Data Communication | Green University of Bangladesh*
+**Developed ❤️ by Softece**
 
 </div>
