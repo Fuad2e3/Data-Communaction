@@ -1,85 +1,92 @@
+<div align="center">
+
 # 🛡️ BitGuard: Error Detection & Correction Toolkit
+### **Interactive Data Communication & Network Framing Suite**
 
-<p align="center">
-  <b>A comprehensive toolkit for visualizing and calculating Error Detection and Correction algorithms in Data Communication.</b>
-</p>
+[![Platform](https://img.shields.io/badge/Platform-Desktop_JavaFX-blue?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjfx.io/)
+[![Language](https://img.shields.io/badge/Language-Java_17-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Build](https://img.shields.io/badge/Build-Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+[![Course](https://img.shields.io/badge/Course-Data_Communication-8E75FF?style=for-the-badge)](https://green.edu.bd)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Desktop-green?style=for-the-badge&logo=android" alt="Platform">
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" alt="Language">
-  <img src="https://img.shields.io/badge/UI-JavaFX-blue?style=for-the-badge" alt="UI">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
-</p>
+**A visual computing laboratory for calculating and simulating Layer 2 Data Link error detection and correction algorithms.**
 
 ---
 
-## 🚀 Overview
+[Explore Features](#-key-features) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack) • [Installation](#-installation)
 
-**BitGuard** is a powerful, user-friendly desktop application designed to help students and professionals understand the core concepts of data communication. It provides interactive modules for various error detection and correction techniques, ensuring data integrity across networks.
+</div>
+
+---
+
+## 📖 Overview
+**BitGuard** is an interactive desktop application engineered using **JavaFX** and **Java 17**. Developed for the Data Communication course curriculum at **Green University of Bangladesh**, it provides an intuitive visual simulation of how digital signals, frames, and bit streams are validated against channel noise using classical encoding algorithms.
+
+---
 
 ## ✨ Key Features
 
--   **Cyclic Redundancy Check (CRC):** Calculate and verify CRC codes with custom polynomials.
--   **Hamming Code:** Generate and correct Hamming codes for single-bit error detection and recovery.
--   **Checksum:** Implement traditional checksum algorithms to validate data packets.
--   **Bit Stuffing:** Visualize the bit stuffing process used in data link layer framing.
--   **Interactive UI:** A clean, modern interface built with JavaFX for an intuitive experience.
+- 🔄 **Cyclic Redundancy Check (CRC):** Polynomial division calculating CRC-8, CRC-16, and custom generator polynomials with step-by-step XOR remainder traces.
+- 🧮 **Hamming Code Generator & Corrector:** Matrix-based parity generation enabling single-bit error detection and automatic bit syndrome correction.
+- 📦 **Internet Checksum Engine:** 16-bit one's complement addition simulating IPv4 and TCP segment header validation.
+- ✂️ **Bit Stuffing & De-stuffing:** Framing layer simulator visualizing zero-bit insertion for continuous flag delimitation sequences (`01111110`).
+- 🎨 **Modern JavaFX UI:** Fluid animations, responsive FXML layout components, and clean styling.
 
-## 🛠️ Tech Stack
+---
 
--   **Core:** Java 17
--   **UI Framework:** JavaFX
--   **Build Tool:** Maven
--   **Project Architecture:** MVC (Model-View-Controller)
-
-## 📥 Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/fuadk/Data-Communaction.git
-    cd Data-Communaction
-    ```
-
-2.  **Build the project:**
-    ```bash
-    mvn clean install
-    ```
-
-3.  **Run the application:**
-    ```bash
-    mvn javafx:run
-    ```
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 Data-Communaction/
 ├── src/main/java/com/bitguard/
-│   ├── controllers/  # UI Logic & Event Handling
-│   ├── models/       # Data Structures & Algorithms
-│   ├── helper/       # Utility Classes
-│   └── bitguard/     # Main Application Entry
+│   ├── controllers/            # JavaFX Controller logic & event dispatchers
+│   ├── models/                 # Algorithm implementations (CRC, Hamming, Checksum)
+│   ├── helper/                 # Bitwise utilities & byte array formatters
+│   └── bitguard/               # Main Application launcher
 ├── src/main/resources/com/bitguard/bitguard/
-│   ├── fxml/         # UI Layouts
-│   ├── styles/       # CSS Themes
-│   └── images/       # Assets & Logos
-├── pom.xml           # Maven Configuration
-└── LICENSE           # MIT License
+│   ├── fxml/                   # Declarative XML interface views
+│   ├── styles/                 # Modern CSS themes
+│   └── images/                 # Assets, university logos & UI badges
+├── pom.xml                     # Maven dependency & plugin configuration
+└── README.md                   # System documentation
 ```
-
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-See `CONTRIBUTING.md` for more details.
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-<p align="center">
-  Developed with ❤️ by <b>Fuad</b><br>
-  <i>Data Communication | Green University of Bangladesh</i>
-</p>
+## 🛠️ Tech Stack
+
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Language** | Java 17 (LTS) | Core application logic and bitwise manipulation |
+| **GUI Framework** | JavaFX (OpenJFX 17) | Modern responsive desktop GUI with FXML |
+| **Build Automation** | Apache Maven | Lifecycle management and dependency resolution |
+| **Design Pattern** | MVC (Model-View-Controller) | Separation of mathematical algorithms from presentation |
+
+---
+
+## 🚀 Installation & Execution
+
+### 1. Prerequisites
+- JDK 17 or higher
+- Apache Maven installed
+
+### 2. Build & Launch
+```bash
+git clone https://github.com/fuadk/Data-Communaction.git
+cd Data-Communaction
+mvn clean install
+mvn javafx:run
+```
+
+---
+
+## 📄 License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<div align="center">
+
+**Developed with ❤️ by Fuad**  
+*Developed by Softece*  
+*Data Communication | Green University of Bangladesh*
+
+</div>
